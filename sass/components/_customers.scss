@@ -1,7 +1,11 @@
 .customers {
   display: flex;
   flex-wrap: wrap;
-
+  margin-bottom: -30px;
+  margin-left: -30px;
+  @media screen and (min-width: 768px) {
+    margin-left: -30px;
+  }
   // .customers__item + .customers__item {
   //   margin-left: 30px;
   // }
@@ -12,13 +16,20 @@
   align-items: center;
 
   // width: 170px;
-  width: 210px;
+  // width: 210px;
   height: 92px;
-  &:nth-child(even) {
+  width: calc(100% / 2 - 30px);
+  margin-bottom: 30px;
+  // &:nth-child(even) {
+  margin-left: 30px;
+  // }
+
+  @media screen and (min-width: 768px) {
+    width: calc(100% / 3 - 30px);
     margin-left: 30px;
   }
-  &:nth-child(-n + 4) {
-    margin-bottom: 30px;
+  @media screen and (min-width: 1200px) {
+    width: calc(100% / 6 - 30px);
   }
 }
 
