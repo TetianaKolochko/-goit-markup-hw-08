@@ -21,11 +21,14 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-white-color);
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+  }
 }
 
 .join__list {
   display: flex;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1199px) {
     justify-content: center;
   }
 }
