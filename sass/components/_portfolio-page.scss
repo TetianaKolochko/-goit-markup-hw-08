@@ -1,12 +1,9 @@
 .filter {
-  // margin-bottom: 50px;
   margin-bottom: 40px;
   display: flex;
-  // justify-content: center;
   flex-wrap: wrap;
-  // .filter__item + .filter__item {
   margin-left: -8px;
-  // }
+
   .filter__item {
     &:nth-child(-n + 3) {
       margin-bottom: 15px;
@@ -16,7 +13,6 @@
 
   @media screen and (min-width: 768px) {
     justify-content: center;
-    // flex-wrap: wrap;
     margin-bottom: 30px;
     .filter__item {
       &:nth-child(-n + 3) {
@@ -75,8 +71,6 @@ img {
 
 .portfolio__item {
   width: 100%;
-  // margin-right: 30px;
-
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
   cursor: pointer;
@@ -91,16 +85,8 @@ img {
   @media screen and (min-width: 768px) {
     width: calc(100% / 2 - 30px);
     margin-left: 30px;
-    // &:nth-last-child(-n + 3) {
-    //   margin-bottom: 0;
-    // }
-    // &:nth-child(2n + 1) {
-    //   margin-left: 0;
-    // }
-    // &:last-child {
-    //   margin-right: 0;
-    // }
   }
+
   @media screen and (min-width: 1200px) {
     width: calc(100% / 3 - 30px);
   }

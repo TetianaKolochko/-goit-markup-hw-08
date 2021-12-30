@@ -1,12 +1,9 @@
 .footer__contacts {
   display: block;
-  // flex-grow: 1;
-  @media screen and (min-width: 768px) {
+   @media screen and (min-width: 768px) {
     margin-right: 165px;
   }
-  // @media screen and (max-width: 768px) {
-  //   margin-bottom: 60px;
-  // }
+ 
   @media screen and (max-width: 1199px) {
     text-align: center;
     margin-bottom: 60px;

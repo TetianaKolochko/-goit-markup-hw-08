@@ -1,5 +1,4 @@
 .contacts {
-  // display: flex;
   margin-left: auto;
 
   @media screen and (max-width: 768px) {
@@ -27,8 +26,6 @@
 .contacts__link {
   display: flex;
   align-items: center;
-  // padding-top: 21px;
-  // padding-bottom: 21px;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.16;
